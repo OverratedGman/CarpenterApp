@@ -1,0 +1,60 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="70dp"
+    tools:context="com.gautham.carpenterapp.DetailActivityFragment"
+    tools:showIn="@layout/activity_detail"
+    android:orientation="vertical">
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Full Name - Double tap to clear"
+        android:ems="10"
+        android:id="@+id/nameTF"
+        android:layout_gravity="center_horizontal"
+        android:paddingBottom="20dp"
+        android:paddingTop="10dp"
+        android:onClick="clearOnClickFullName" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textAutoComplete|textPostalAddress"
+        android:ems="10"
+        android:id="@+id/addressTF"
+        android:layout_gravity="center_horizontal"
+        android:text="Address - Double tap to clear"
+        android:paddingBottom="20dp"
+        android:paddingTop="10dp"
+        android:onClick="clearOnClickAddress" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="phone|numberSigned"
+        android:ems="10"
+        android:id="@+id/phoneNumberTF"
+        android:layout_gravity="center_horizontal"
+        android:text="Phone number - Double tap to clear"
+        android:paddingBottom="20dp"
+        android:paddingTop="10dp"
+        android:phoneNumber="false"
+        android:onClick="clearOnClickPhoneNumber" />
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="70dp"
+        android:text="Next"
+        android:id="@+id/next1Button"
+        android:layout_gravity="center_horizontal"
+        android:onClick="next1ButtonClicked"
+        android:background="#FF9100"
+        android:elevation="8dp" />
+</LinearLayout>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">CarpenterApp</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_detail">DetailActivity</string>
+    <string name="title_activity_carpet_input">CarpetInput</string>
+    <string name="title_activity_gripper_selection">GripperSelection</string>
+    <string-array name="underlay_options">
+        <item>Please choose your underlay type</item>
+        <item>Type 1 - £5.99 per sq meter</item>
+
+        <item>Type 2 - £7.99 per sq meter</item>
+        <item>Type 3 - £60 per sq meter</item>
+    </string-array>
+    <string name="title_activity_quote_display">QuoteDisplay</string>
+    <string name="title_activity_view_all">ViewAll</string>
+</resources>

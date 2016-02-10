@@ -1,0 +1,76 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="70dp"
+    android:orientation="vertical"
+    tools:context="com.gautham.carpenterapp.QuoteDisplayFragment"
+    tools:showIn="@layout/activity_quote_display">
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/finalFullName"
+        android:layout_gravity="center_horizontal"
+        android:editable="false" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/finalAddress"
+        android:layout_gravity="center_horizontal"
+        android:editable="false" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/finalPhoneNumber"
+        android:layout_gravity="center_horizontal"
+        android:editable="false" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/finalDimensions"
+        android:layout_gravity="center_horizontal"
+        android:editable="false" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/finalUnderlayType"
+        android:layout_gravity="right"
+        android:editable="false" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/finalQuoteCost"
+        android:layout_gravity="center_horizontal"
+        android:editable="false" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Finalse"
+        android:id="@+id/finaliseButton"
+        android:layout_gravity="center_horizontal"
+        android:background="#FF9100"
+        android:elevation="8dp"
+        android:onClick="ONfinalise"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Share"
+        android:id="@+id/shareButton"
+        android:layout_gravity="center_horizontal"
+        android:background="#00e676"
+        android:elevation="16dp"
+        android:onClick="shareIntent" />
+</LinearLayout>

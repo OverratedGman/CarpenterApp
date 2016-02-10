@@ -1,0 +1,52 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.gautham.carpenterapp.MainActivityFragment"
+    tools:showIn="@layout/activity_main">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="70dp"
+        android:layout_alignParentTop="true"
+        android:paddingBottom="20dp">
+
+        <Button
+            android:layout_width="160dp"
+            android:layout_height="65dp"
+            android:text="New Quote"
+            android:layout_marginBottom="20dp"
+            android:id="@+id/newQuoteButton"
+            android:layout_gravity="center_horizontal"
+            android:onClick="quoteClicked"
+            android:background="#00e676" />
+
+        <Button
+            android:layout_width="160dp"
+            android:layout_height="65dp"
+            android:text="View all Clients"
+            android:layout_marginBottom="20dp"
+            android:id="@+id/viewAllButton"
+            android:layout_gravity="center_horizontal"
+            android:onClick="viewAllClicked"
+            android:background="#00e676" />
+
+        <Button
+            android:layout_width="160dp"
+            android:layout_height="65dp"
+            android:text="Delete a client"
+            android:layout_marginBottom="20dp"
+            android:id="@+id/deleteButton"
+            android:layout_gravity="center_horizontal"
+            android:onClick="deleteClicked"
+            android:background="#00e676" />
+
+    </LinearLayout>
+</RelativeLayout>
